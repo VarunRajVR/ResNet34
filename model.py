@@ -83,5 +83,5 @@ class ResNet34(nn.Module):
 
         return x
 
-model = ResNet34().to(device)
+model = ResNet34()
 print(model)
